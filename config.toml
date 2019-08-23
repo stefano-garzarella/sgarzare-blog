@@ -10,10 +10,10 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "UA-146409373-1"
 
 [Params]
-  homeTitle = "Virtualization and networkin blog"
+  homeTitle = "Virtualization and networking blog"
   subtitle = "Stefano Garzarella"
   logo = "img/avatar-icon.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
