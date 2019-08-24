@@ -1,7 +1,7 @@
 ---
 title: "QEMU 4.0 boots uncompressed Linux x86_64 kernel"
 date: 2019-08-23T15:26:54+02:00
-tags: ["qemu", "linux"]
+tags: ["qemu", "linux", "boot"]
 ---
 
 **QEMU 4.0** is now able to boot directly into the **uncompressed Linux x86_64 kernel binary** with minimal firmware involvement using the **PVH entry point** defined in the [x86/HVM direct boot ABI](https://xenbits.xen.org/docs/unstable/misc/pvh.html). (`CONFIG_PVH=y` must be enabled in the Linux config file).
