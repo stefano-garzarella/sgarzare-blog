@@ -1,12 +1,12 @@
 ---
-title: "How to measure the boot time of a Linux VM with QEMU"
+title: "How to measure the boot time of a Linux VM with QEMU/KVM"
 date: 2019-08-24T15:03:30+02:00
 tags: ["qemu", "linux", "boot"]
 ---
 
 The [stefano-garzarella/qemu-boot-time](https://github.com/stefano-garzarella/qemu-boot-time)
 repository contains a Python perf-script and (Linux, QEMU, SeaBIOS) patches
-to measure the boot time of a Linux VM with QEMU.
+to measure the boot time of a Linux VM with QEMU/KVM.
 
 Using I/O writes, we can trace events to measure the time consumed during the
 boot phase by the different components:
