@@ -52,9 +52,14 @@ googleAnalytics = "UA-146409373-1"
   linkedin = "stefanogarzarella"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = ""
     weight = 1
+
+[[menu.main]]
+    name = "Posts"
+    url = "posts"
+    weight = 2
 
 [[menu.main]]
     name = "About"
@@ -64,4 +69,4 @@ googleAnalytics = "UA-146409373-1"
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+    weight = 4
