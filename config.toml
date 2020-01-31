@@ -43,7 +43,7 @@ googleAnalytics = "UA-146409373-1"
 
 [Author]
   name = "Stefano Garzarella"
-  website = "stefano-garzarella.github.io"
+  website = "page/about"
   email = "sgarzare@redhat.com"
   github = "stefano-garzarella"
   gitlab = "sgarzarella"
