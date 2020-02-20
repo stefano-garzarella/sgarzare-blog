@@ -16,7 +16,7 @@ boot phase by the different components:
   * qboot
 * optionrom
   * linuxboot [bzImage]
-  * [pvh [vmlinux + PVH entry point]] ( {{< relref "posts/2019-08-23-qemu-linux-kernel-pvh" >}})
+  * [pvh [vmlinux + PVH entry point]]({{< relref "posts/2019-08-23-qemu-linux-kernel-pvh" >}})
 * Linux kernel
 
 <!--more-->
