@@ -120,30 +120,30 @@ support VSOCK and I listed them to update the audience:
 * Tools:
   * wireshark >= 2.40 [2017-07-19]
   * iproute2 >= 4.15 [2018-01-28]
-        * ss
+    * ss
   * tcpdump
-        * merged in master [2019-04-16]
+    * merged in master [2019-04-16]
   * nmap >= 7.80 [2019-08-10]
-        * ncat
-        * nbd
+    * ncat
+    * nbd
   * nbdkit >= 1.15.5 [2019-10-19]
   * libnbd >= 1.1.6 [2019-10-19]
   * iperf-vsock
-        * iperf3 fork
+    * iperf3 fork
 
 * Languages:
-    * C
-        * glibc >= 2.18 [2013-08-10]
-    * Python
-        * python >= 3.7 alpha 1 [2017-09-19]
-    * Golang
-        * https://github.com/mdlayher/vsock
-    * Rust
-        * libc crate >= 0.2.59 [2019-07-08]
-            * struct sockaddr_vm
-            * VMADDR_* macros
-        * nix crate >= 0.15.0 [2019-08-10]
-            * VSOCK supported in the socket API (nix::sys::socket)
+  * C
+    * glibc >= 2.18 [2013-08-10]
+  * Python
+    * python >= 3.7 alpha 1 [2017-09-19]
+  * Golang
+    * https://github.com/mdlayher/vsock
+  * Rust
+    * libc crate >= 0.2.59 [2019-07-08]
+      * struct sockaddr_vm
+      * VMADDR_* macros
+    * nix crate >= 0.15.0 [2019-08-10]
+      * VSOCK supported in the socket API (nix::sys::socket)
 
 ### Next steps
 
