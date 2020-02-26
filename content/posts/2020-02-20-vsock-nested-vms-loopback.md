@@ -14,7 +14,7 @@ interesting new features that we will describe in this blog post:
 * [Local communication support](#local-communication), available in Linux 5.6
 
 ## DevConf.CZ 2020
-These updates and an introduction to AF\_VSOCK ware presented at
+These updates and an introduction to AF\_VSOCK were presented at
 **DevConf.CZ 2020** during the
 "[VSOCK: VM↔host socket with minimal configuration](https://devconfcz2020a.sched.com/event/YOwb/vsock-vm-host-socket-with-minimal-configuration)" talk.
 Slides available [here](https://static.sched.com/hosted_files/devconfcz2020a/b1/DevConf.CZ_2020_vsock_v1.1.pdf).
