@@ -125,9 +125,9 @@ support VSOCK and I listed them to update the audience:
     * merged in master [2019-04-16]
   * nmap >= 7.80 [2019-08-10]
     * ncat
-    * nbd
-  * nbdkit >= 1.15.5 [2019-10-19]
-  * libnbd >= 1.1.6 [2019-10-19]
+  * nbd
+    * nbdkit >= 1.15.5 [2019-10-19]
+    * libnbd >= 1.1.6 [2019-10-19]
   * iperf-vsock
     * iperf3 fork
 
