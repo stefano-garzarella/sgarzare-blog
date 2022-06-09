@@ -187,7 +187,7 @@ guest_42$ nc --vsock -l 1234
 ```
 
 Note: as destination CID we have to use the host's well-known CID (2) because
-we neet to connect to the `socat` bridge running in the host, that will
+we need to connect to the `socat` bridge running in the host, that will
 redirect packets correctly between the two machines:
 
 ```shell
