@@ -38,7 +38,7 @@ and measuring the VSOCK performance, including `socat` demos.
 `socat` could be very useful for concatenating and redirecting sockets.
 In this section we will see some examples.
 
-All examples below refer to a guest with `CID 42` that we created using
+Examples below refer to a guest with `CID 42` that we created using
 [virt-builder](https://libguestfs.org/virt-builder.1.html)
 and
 [virt-install](https://virt-manager.org/)
@@ -159,3 +159,38 @@ host$ ssh -p 4321 root@localhost
 
 `socat` redirects all the traffic between the sockets and allow us to use ssh over
 VSOCK to reach the guest.
+
+### Connecting sibling VMs
+
+Another scenario where socat can be very useful is connecting two sibling VMs
+running on the same host.
+
+Currently this is not supported by `vhost-vsock`, so we can use `socat` to
+concatenate the two VMs.
+
+Let's see an example: suppose we launch another VM with `CID = 24` on
+the same host. Now we want to use `ncat` in the VMs to communicate with each
+other.
+
+Guest 42 will listen on port 1234 and guest 24 will initiate the connection.
+But before we do this we need to set up the bridge in the host with `socat` to
+allow the two VMs to communicate:
+
+```shell
+host$ socat VSOCK-LISTEN:1234 VSOCK-CONNECT:42:1234
+```
+
+At this point we can launch `ncat` in the VMs and communicate:
+
+```shell
+guest_42$ nc --vsock -l 1234
+```
+
+Note: as destination CID we have to use the host's well-known CID (2) because
+we neet to connect to the `socat` bridge running in the host, that will
+redirect packets correctly between the two machines:
+
+```shell
+guest_24$ nc --vsock 2 1234
+```
+
