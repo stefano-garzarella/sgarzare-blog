@@ -143,22 +143,15 @@ ssh server is listening:
 guest$ socat VSOCK-LISTEN:22,reuseaddr,fork TCP:localhost:22
 ```
 
-On the host we link a TCP socket listening on a port of our choice (e.g. 4321)
-to the guest port 22 just opened using VSOCK:
+On the host we can use `socat` as `ProxyCommand` of `ssh` to forward the connection
+through the AF_VSOCK socket:
 
 ```shell
-host$ socat TCP4-LISTEN:4321,reuseaddr,fork VSOCK-CONNECT:42:22
+host$ ssh -o "ProxyCommand socat - VSOCK-CONNECT:42:22" root@localhost
 ```
 
-Finally from the host we can connect to the guest using ssh on the local port
-4321, where `socat` is listening:
-
-```shell
-host$ ssh -p 4321 root@localhost
-```
-
-`socat` redirects all the traffic between the sockets and allow us to use ssh over
-VSOCK to reach the guest.
+`socat` redirects all the traffic and allow us to use ssh over VSOCK to reach
+the guest.
 
 ### Connecting sibling VMs
 
