@@ -3,6 +3,7 @@ title: "AF_VSOCK: nested VMs and loopback support available"
 subtitle: "Recent updates in Linux 5.5 and Linux 5.6"
 date: 2020-02-25T20:30:21+01:00
 tags: ["vsock", "linux", "qemu", "net", "conference", "talk"]
+type: post
 ---
 During the last
 [KVM Forum 2019]({{< relref "posts/2019-11-08-kvmforum-2019-vsock" >}}),

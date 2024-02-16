@@ -2,6 +2,7 @@
 title: "QEMU 4.2 mmap(2)s kernel and initrd"
 date: 2019-12-22T17:46:44+01:00
 tags: [linux", "qemu", "boot", "microvm"]
+type: post
 ---
 
 In order to save memory and boot time, **QEMU 4.2** and later versions are able to

@@ -12,15 +12,19 @@ pygmentsCodefencesGuessSyntax = true
 disqusShortname = "stefano-garzarella-github-io"
 googleAnalytics = "UA-146409373-1"
 
+# Get last modified date for content from Git?
+enableGitInfo = false
+
 [Params]
   homeTitle = "Virtualization and networking blog"
   subtitle = "Stefano Garzarella"
+  mainSections = ["posts", "post"]
   logo = "img/avatar-icon.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "2006/01/02"
-  commit = true
+  commit = false
   rss = true
-  comments = true
+  comments = false
   readingTime = true
   wordCount = true
   useHLJS = true

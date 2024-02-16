@@ -2,6 +2,7 @@
 title: "iperf3-vsock: how to measure VSOCK performance"
 date: 2019-08-22T17:52:06+02:00
 tags: ["vsock", "linux", "qemu", "net"]
+type: post
 ---
 
 The [iperf-vsock](https://github.com/stefano-garzarella/iperf-vsock) repository

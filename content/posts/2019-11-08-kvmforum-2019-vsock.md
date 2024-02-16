@@ -3,6 +3,7 @@ title: "KVM Forum 2019: virtio-vsock in QEMU, Firecracker and Linux"
 subtitle: "Status, Performance and Challenges"
 date: 2019-11-09T18:45:25+01:00
 tags: ["vsock", "linux", "qemu", "net", "conference", "talk"]
+type: post
 ---
 
 [Slides](https://static.sched.com/hosted_files/kvmforum2019/50/KVMForum_2019_virtio_vsock_Andra_Paraschiv_Stefano_Garzarella_v1.3.pdf) and

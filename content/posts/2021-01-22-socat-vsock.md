@@ -3,6 +3,7 @@ title: "SOCAT now supports AF_VSOCK"
 subtitle: ""
 date: 2021-01-22T15:16:04+01:00
 tags: ["vsock", "linux", "qemu", "net", "conference", "talk", "socat"]
+type: post
 ---
 
 [SOCAT](http://www.dest-unreach.org/isocat/)
