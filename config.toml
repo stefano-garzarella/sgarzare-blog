@@ -52,7 +52,6 @@ enableGitInfo = false
   github = "stefano-garzarella"
   gitlab = "sgarzarella"
   bitbucket = "sgarzarella"
-  twitter = "sgarzarella"
   linkedin = "stefanogarzarella"
 
 [[menu.main]]

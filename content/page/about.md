@@ -3,6 +3,14 @@ title: "About"
 date: 2019-08-23T17:39:08+02:00
 ---
 
-I am Software Engineer at Red Hat. I'm working on virtualization and networking topics in QEMU and Linux kernel. Current projects cover virtio-vsock, QEMU network storage, and lightweight VMs.
+Linux's AF_VSOCK maintainer. Working in virtualization, virtio devices/drivers, rust-vmm, confidential VMs, etc. at Red Hat.
 
 The postings on this site are my own and don't necessarily represent Red Hat's positions, strategies or opinions.
+
+### Contacts
+
+Work e-mail: [sgarzare@redhat.com](mailto:sgarzare@redhat.com)  
+Personal e-mail: [stefano.garzarella@gmail.com](mailto:stefano.garzarella@gmail.com)  
+GitHub: https://github.com/stefano-garzarella  
+GitLab: https://gitlab.com/sgarzarella  
+LinkedIn: https://www.linkedin.com/in/stefanogarzarella  
