@@ -18,6 +18,7 @@ enableGitInfo = false
 [Params]
   homeTitle = "Virtualization and networking blog"
   subtitle = "Stefano Garzarella"
+  since = 2019
   mainSections = ["posts", "post"]
   logo = "img/avatar-icon.jpg" # Expecting square dimensions
   favicon = "img/favicon.ico"
