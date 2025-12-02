@@ -45,7 +45,7 @@ enableGitInfo = false
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
-[Author]
+[Params.Author]
   name = "Stefano Garzarella"
   website = "https://stefano-garzarella.github.io/page/about"
   email = "sgarzare@redhat.com"
