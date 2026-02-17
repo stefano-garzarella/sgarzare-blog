@@ -10,7 +10,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 disqusShortname = "stefano-garzarella-github-io"
-googleAnalytics = "UA-146409373-1"
+googleAnalytics = "G-WKHXSHN2MN"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
