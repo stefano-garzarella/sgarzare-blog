@@ -11,7 +11,7 @@ Whenever I get the chance, I love speaking about open source. Here’s an archiv
   [Abstract](https://lpc.events/event/20/contributions/2463/)
 
 * **AF_VSOCK: Namespaces, Zerocopy, and Beyond**  
-  _Stefano Garzarella, Bobby Eshleman_ - **KVM Forum 2026** (Nov 12-12, 2026), Vancouver, Canada  
+  _Stefano Garzarella, Bobby Eshleman_ - **KVM Forum 2026** (Nov 12-13, 2026), Vancouver, Canada  
   [Abstract](https://pretalx.com/kvm-forum-2026/talk/VKVWE8/)
 
 ## 2026
